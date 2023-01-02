@@ -1,0 +1,4 @@
+discord_webhook
+pyyml
+tinydb
+rich

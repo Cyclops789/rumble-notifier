@@ -1,0 +1,13 @@
+channel_link: "https://rumble.com/c/SNEAKO"
+
+webhook_video_username: "Sneako - Video"
+
+webhook_live_username: "Sneako - Live"
+
+webhook_embed_color: "85c742"
+
+webhooks_picture: "https://sp.rmbl.ws/z8/c/2/f/i/c2fia.baa-SNEAKO-rlcue8.jpeg"
+
+webhook_live: "https://discord.com/api/webhooks/<some-id>/<some-id>"
+
+webhook_video: "https://discord.com/api/webhooks/<some-id>/<some-id>"
