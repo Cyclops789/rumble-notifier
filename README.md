@@ -3,7 +3,7 @@
 ```
 pip install -r requirements.txt
 ```
-config **config.yml**, then run:
+edit [config.yml](https://github.com/Cyclops789/rumble-notifier/blob/main/config.yml), then run:
 ```shell
 # win
 py -3 rumble.py
