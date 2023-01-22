@@ -131,7 +131,7 @@ while True:
                 Rumble().getVideoDuration(e_current)
             )
             logger.info("WebHook Sent, Type: " + ( "Live" if Rumble().getVideoType(e_current)[0] == 1 else "Video"))
-            Rumble().addToDB(Rumble().getVideoTitle(e_current), Rumble().getVideoID(videoLink=Rumble().getVideoLink(e_current)), Rumble().getVideoType(e_current)[0])
+            Rumble().addToDB(Rumble().getVideoTitle(e_current), Rumble().getVideoID(Rumble().getVideoLink(e_current)), Rumble().getVideoType(e_current)[0])
         v_previous = v_current
         sleep(60)
     except Exception as e:
