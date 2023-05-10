@@ -10,3 +10,8 @@ py -3 rumble.py
 # linux
 python3 rumble.py
 ```
+
+# Docker
+```
+docker compose up -d
+```
