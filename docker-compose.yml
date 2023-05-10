@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  rumble:
+    image: cyclops01/rumble-notifier:latest
+    container_name: rumble-notifier
+    environment:
+      - CHANNEL_LINK=https://rumble.com/SNEAKO
+      - WEBHOOK_VIDEO_USERNAME="Sneako - Video"
+      - WEBHOOK_LIVE_USERNAME="Sneako - Live"
+      - WEBHOOK_EMBED_COLOR=85c742
+      - WEBHOOK_PICTURE_URL=https://sp.rmbl.ws/z8/c/2/f/i/c2fia.baa-SNEAKO-rlcue8.jpeg
+      - WEBHOOK_LIVE_URL=https://discord.com/api/webhooks/<some-id>/<some-id>
+      - WEBHOOK_VIDEO_URL=https://discord.com/api/webhooks/<some-id>/<some-id>
