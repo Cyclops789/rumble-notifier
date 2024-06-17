@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  rumble:
+    image: cyclops01/rumble-notifier:latest
+    container_name: rumble-notifier
