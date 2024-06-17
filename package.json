@@ -1,0 +1,22 @@
+{
+  "name": "rumble",
+  "version": "1.0.0",
+  "main": "rumble.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "color": "^4.2.3",
+    "js-yaml": "^4.1.0",
+    "node-html-parser": "^6.1.13",
+    "simpl.db": "^2.13.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.11.28"
+  },
+  "scripts": {
+    "start": "node rumble.js"
+  }
+}
