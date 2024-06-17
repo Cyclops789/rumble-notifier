@@ -1,4 +1,5 @@
 tests/
 node_modules/
+collections/videos.json
 
 .env

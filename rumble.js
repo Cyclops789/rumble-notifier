@@ -128,12 +128,11 @@ class Rumble {
     const videoType = this.getVideoType(element);
 
     if (videoType === 1) {
-      title = ' ';
       wUsername = webhookLiveUsername;
       cWebhook = webhookLive;
       message = 'is live right now!';
     } else if (videoType === 3) {
-      title = `**(${videoDuration})**`;
+      title = ` **(${videoDuration})**`;
       wUsername = webhookVideoUsername;
       cWebhook = webhookVideo;
       message = 'has posted a video, go check it out!';
@@ -144,7 +143,7 @@ class Rumble {
         content: `**${channelName}** ${message}`,
         embeds: [
           {
-            title: `${videoTitle} ${title}`,
+            title: `${videoTitle}${title}`,
             description: videoDescription,
             url: videoLink,
             color: Color(webhookEmbedColor).rgbNumber(),
