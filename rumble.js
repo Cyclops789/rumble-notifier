@@ -40,15 +40,15 @@ class Rumble {
   }
 
   getVideoType(element) {
-    const live = element.toString().match(/LIVE/g);
-    const upcoming = element.toString().match(/UPCOMING/g);
+    const isVideo = element.querySelector('.videostream__status--duration');
+    const isLive = element.querySelector('.videostream__status--live');
+    const isUpComing = element.querySelector('.videostream__status--upcoming');
 
-    if (live) {
+    if (isLive) {
       return 1;
-    } else if (upcoming) {
+    } else if (isUpComing) {
       return 2;
-    } else {
-      // Then its a video
+    } else if(isVideo) {
       return 3;
     }
   }
